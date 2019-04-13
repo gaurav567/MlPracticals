@@ -1,0 +1,46 @@
+----Report exploring the boarding & accommodation trends in the city of San Diego, California, United States with the data provided----
+
+Important Key drivers and metrics as per graphical analysis
+
+-----------------------------------------
+Label
+-------
+Price,room_type - Target Variable
+
+Features
+-----------
+Date
+accommodates
+bathrooms
+bedrooms
+require_guest_phone_verification
+instant_bookable_numeric
+host_is_superhost_numeric
+host_identity_verified_numeric
+comments
+reviews - reviews per month, number of reviews
+street
+availability factor - 30,60,90,365
+maximum nights
+minimum nights
+guests included.
+
+---------------
+Training and testing could be done on above metrics using different technique such as gradient boosting, decision tree, xgboost approach as it is mixture of classification and regression data so regression technique may not perform better. 
+-----------------
+
+Note -:
+
+listings.csv
+Scrape id -	can be dropped out as it is same for all observations				
+Unique columns and columns with 50% missing values should be eliminated.
+
+Neighboorhood.csv - table is optional to take in consideration as it doesn't give much weightage to report
+
+review.csv
+Note-: This section helps us identify how was the customer experience with time during their to san diego, california, we can use nlp approach to distinquish positive and negative comments using nltk and python																		
+
+-> Jupyter notebook attached in mail have detailed view over this report.
+
+It is just a overview not final result more EDA and cleansing could be done, as of now I have discussed basic approach and analysis.						
+---------------------------------------------------x------------------------------------
